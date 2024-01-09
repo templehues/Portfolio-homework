@@ -82,10 +82,23 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .project-link {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    text-align: center;
   }
 }
