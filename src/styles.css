@@ -82,7 +82,7 @@ p {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .project-link {
     display: block;
     text-align: center;
